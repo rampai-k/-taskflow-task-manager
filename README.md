@@ -1,294 +1,156 @@
 <div align="center">
 
-TaskFlow
+# ✦ TaskFlow
 
-Plan smarter. Prioritize better. Get things done.
+### A calmer way to get things done.
 
-A modern, responsive task management dashboard built with React and Vite. Organize your workload, manage priorities, track deadlines, and monitor your productivity in one place.
+Plan your day, focus on the next right task, and watch your progress add up.
+
+[![React](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=20232A)](https://react.dev/)
+[![Vite](https://img.shields.io/badge/Vite-6-646CFF?logo=vite&logoColor=white)](https://vite.dev/)
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES6%2B-F7DF1E?logo=javascript&logoColor=20232A)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![Tests](https://img.shields.io/badge/tests-Vitest-6E9F18?logo=vitest&logoColor=white)](https://vitest.dev/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-8B5CF6.svg)](./LICENSE)
 
 <br />
-<br />
 
-View Source Code · Developer Profile
-
-Live Demo: Coming soon
+[Explore the code](https://github.com/rampai-k/-taskflow-task-manager) ·
+[Meet the developer](https://github.com/rampai-k) ·
+**Live demo coming soon**
 
 </div>
 
-⸻
+---
 
-📌 About the Project
+## ✨ Your work, in focus
 
-TaskFlow is a task management application designed to make planning, organizing, and tracking everyday work easier.
+TaskFlow is a responsive, personal task dashboard for turning a busy to-do list into a clear next step. Capture tasks, set priorities and due dates, and keep an eye on your momentum—all from one focused workspace.
 
-The application provides a central dashboard where users can create tasks, assign priorities, manage deadlines, and monitor completion progress through a clean, intuitive interface.
+> **Made for everyday progress.** No account, backend, API key, or setup beyond installing the project. Your tasks stay in your browser.
 
-Built with React and Vite, TaskFlow demonstrates practical frontend development, reusable components, state management, CRUD operations, data persistence, and responsive user interface design.
+## 🚀 What you can do
 
-This project is part of my software development portfolio, where I build practical applications to demonstrate my technical skills and problem-solving abilities.
+| 📝 Manage | 🎯 Prioritize | 🔎 Find your focus | 📈 See your progress |
+|:--|:--|:--|:--|
+| Create, edit, complete, reopen, and delete tasks. | Set Low, Medium, or High priority, a due date, and an optional category. | Search titles and descriptions; combine status and priority filters. Sort by newest, due date, or priority. | Track total, active, completed, and overdue tasks, plus your completion rate. |
 
-✨ Features
+Also included: required-title validation, overdue indicators, delete confirmation, responsive layouts, visible keyboard focus, helpful empty states, and safe handling when saved browser data is invalid or unavailable.
 
-📋 Task Management
+## 🖥️ A peek at the experience
 
-* Create tasks with titles and optional descriptions.
-* Edit existing tasks.
-* Delete tasks with confirmation.
-* Mark tasks as completed or reopen them.
-* Organize tasks using optional categories.
+The dashboard is designed to keep the important things close: your daily workspace, task overview, progress, and a searchable list you can shape around the moment.
 
-🎯 Priorities & Deadlines
+> **Screenshots coming soon.** This repository does not yet include captured app screenshots. Only real screenshots of the running application will be added here.
 
-* Assign Low, Medium, or High priority.
-* Set due dates for tasks.
-* Identify overdue tasks.
-* Sort tasks by due date or priority.
+## ⚡ Get started
 
-🔎 Search & Filtering
+### You’ll need
 
-* Search by task title or description.
-* Filter by All, Active, Completed, or Overdue.
-* Combine search, status, and priority filters.
+- [Node.js](https://nodejs.org/) 18 or newer
+- npm (included with Node.js)
 
-📊 Productivity Dashboard
+### Run it locally
 
-* View total tasks.
-* Track active tasks.
-* Monitor completed tasks.
-* Identify overdue tasks.
-* View completion progress calculated from task data.
+```bash
+# Clone the repository
+git clone https://github.com/rampai-k/-taskflow-task-manager.git
+cd ./-taskflow-task-manager
 
-💾 Persistent Storage
-
-* Save tasks in browser local storage.
-* Retain saved tasks after refreshing the page.
-* Handle invalid stored data safely.
-* Continue working during the current session when persistent storage is unavailable.
-
-📱 Responsive User Interface
-
-* Responsive desktop, tablet, and mobile layouts.
-* Accessible form controls.
-* Visible keyboard focus indicators.
-* Input validation and helpful feedback.
-* Clear empty states.
-* Confirmation before destructive actions.
-
-⸻
-
-🛠️ Technology Stack
-
-Technology	Purpose
-React 18	Component-based user interface
-JavaScript ES6+	Application logic and interactivity
-Vite	Development server and production build
-HTML5	Semantic page structure
-CSS3	Responsive styling and visual design
-localStorage	Browser-based data persistence
-Vitest	Automated testing
-jsdom	Browser-like testing environment
-Testing Library	Component and interaction testing
-
-🖥️ Application Preview
-
-Screenshots will be added once the final application preview has been captured.
-
-Recommended screenshots:
-
-Screenshot	Description
-Dashboard	Main dashboard and task statistics
-Task Management	Task creation, priorities, and task list
-Mobile View	Responsive layout on a smaller screen
-
-To display a screenshot, save it in a screenshots/ directory and add:
-
-![TaskFlow Dashboard](screenshots/dashboard.png)
-
-Only add screenshots of the actual working application.
-
-🚀 Getting Started
-
-Follow these instructions to run TaskFlow on your local machine.
-
-Prerequisites
-
-Install:
-
-* Node.js — version 18 or newer.
-* npm — included with Node.js.
-* Git.
-* Visual Studio Code or another code editor.
-
-1. Clone the Repository
-
-git clone https://github.com/rampai-k/taskflow-task-manager.git
-
-2. Navigate to the Project
-
-cd taskflow-task-manager
-
-3. Install Dependencies
-
+# Install dependencies and start the dev server
 npm install
-
-4. Start the Development Server
-
 npm run dev
+```
 
-Open the local URL displayed in your terminal. Vite typically uses:
+Open the local URL printed in your terminal—usually [`http://localhost:5173`](http://localhost:5173)—and you’re ready to go.
 
-http://localhost:5173
+## 🧰 Project commands
 
-You can now interact with the TaskFlow application in your browser.
+| Command | What it does |
+|:--|:--|
+| `npm run dev` | Starts the Vite development server |
+| `npm test` | Runs the automated test suite |
+| `npm run build` | Creates the production build in `dist/` |
+| `npm run preview` | Serves the production build locally |
 
-⚙️ Available Commands
+Before sharing a change, run:
 
-Command	Description
-npm install	Installs project dependencies
-npm run dev	Starts the development server
-npm test	Runs automated tests
-npm run build	Creates the production build
-npm run preview	Previews the production build locally
-
-Before publishing changes, run:
-
+```bash
 npm test
 npm run build
+```
 
-These commands assume the corresponding scripts are configured in package.json.
+## 🧱 Built with
 
-📁 Project Structure
+- **React 18** for a component-based interface
+- **JavaScript (ES modules)** for application logic
+- **Vite** for local development and production builds
+- **CSS** for responsive styling
+- **localStorage** for browser-based task persistence
+- **Vitest, jsdom, and Testing Library** for automated tests
 
-taskflow-task-manager/
-├── public/
-├── src/
-│   ├── components/
-│   ├── hooks/
-│   ├── styles/
-│   ├── test/
-│   ├── utils/
-│   ├── App.jsx
-│   └── main.jsx
-├── screenshots/
-├── index.html
-├── package.json
-├── package-lock.json
-├── vite.config.js
-├── README.md
-├── .gitignore
-└── LICENSE
+## 📂 How the project is organized
 
-The structure above is illustrative. Refer to the actual repository for the complete implementation.
+```text
+src/
+├── components/       Dashboard, task form, filters, and task list UI
+├── hooks/            Task state and browser persistence
+├── styles/           Global and component styles
+├── test/             Test environment setup
+├── utils/            Task creation, filtering, dates, and storage helpers
+├── App.jsx           Dashboard composition and interactions
+└── main.jsx          React entry point
+```
 
-💾 Data Persistence & Limitations
+## 💾 Your data stays in your browser
 
-TaskFlow stores tasks in the browser’s local storage under the key:
+Tasks are saved in local storage using the `taskflow.tasks` key. They remain available after a refresh in the same browser profile, with no account or server involved.
 
-taskflow.tasks
+- Data is **not** synced across browsers, devices, or users.
+- Clearing browser site data can permanently remove saved tasks.
+- If browser storage is unavailable, the app remains usable for the current page session, but changes will not persist after it closes.
+- Invalid saved data is ignored safely so the workspace can start fresh.
 
-This allows tasks to remain available after a page refresh without requiring a backend server or external database.
+TaskFlow is a frontend portfolio project; accounts, cloud backups, collaboration, and notifications are not currently included.
 
-Current limitations:
+## ☁️ Deploy
 
-* Tasks are stored in the current browser profile.
-* Data is not synchronized across browsers or devices.
-* The application does not currently provide user accounts or cloud backups.
-* Clearing browser site data may permanently remove saved tasks.
-* If browser storage is unavailable, changes may not persist after the current session.
+TaskFlow is a static Vite app and needs no environment variables.
 
-TaskFlow is currently a frontend portfolio project. It does not provide multi-user collaboration or server-side data storage.
+| Platform | Build command | Publish directory |
+|:--|:--|:--|
+| [Vercel](https://vercel.com/) | `npm run build` | `dist` |
+| [Netlify](https://www.netlify.com/) | `npm run build` | `dist` |
 
-🌐 Deployment
+Import the repository into your hosting provider, use the settings above, and deploy. When the live site is ready, replace “Live demo coming soon” at the top with its URL.
 
-TaskFlow can be deployed to a static hosting platform.
+## 🛣️ What’s next
 
-Deploy with Vercel
+Ideas for future versions—not features currently in the app:
 
-1. Sign in to Vercel.
-2. Import the rampai-k/taskflow-task-manager GitHub repository.
-3. Configure the project:
+- Cloud sync and user accounts
+- Project-based task boards
+- Reminders and notifications
+- Drag-and-drop organization
+- Deeper productivity insights
 
-Setting	Value
-Framework	Vite
-Build command	npm run build
-Output directory	dist
-Install command	npm install
+## 👋 About the developer
 
-4. Deploy the application.
-5. Open the generated URL and test the deployed features.
-6. Update the live demo link in this README.
+**Katlego Rampai** · Software Development Student · Gauteng, South Africa 🇿🇦
 
-No environment variables are required for the current implementation.
+I’m building practical applications as I grow my software engineering skills, with a special interest in web development, APIs, and databases.
 
-Deploy with Netlify
+[GitHub](https://github.com/rampai-k) · [Portfolio](https://github.com/rampai-k/developer-portfolio) · LinkedIn: *add your profile link*
 
-1. Sign in to Netlify.
-2. Import the GitHub repository.
-3. Set the build command to npm run build.
-4. Set the publish directory to dist.
-5. Deploy and test the published application.
+## 📄 License
 
-Update the live demo link once deployment has succeeded.
-
-🧪 Testing Checklist
-
-Before considering a release complete, verify:
-
-* Tasks can be created successfully.
-* Empty task titles are rejected.
-* Existing tasks can be edited.
-* Tasks can be completed and reopened.
-* Tasks can be deleted.
-* Search returns relevant results.
-* Filters work correctly together.
-* Priority and due-date sorting work.
-* Dashboard statistics update correctly.
-* Tasks persist after refreshing the browser.
-* The layout works on mobile devices.
-* Automated tests pass.
-* The production build succeeds.
-* The deployed application works correctly.
-
-🗺️ Future Improvements
-
-Potential enhancements for future versions include:
-
-* Backend integration.
-* User authentication and personal accounts.
-* Cloud database and cross-device synchronization.
-* Project-specific task boards.
-* Task reminders and notifications.
-* Drag-and-drop task organization.
-* Enhanced productivity analytics.
-
-These are possible future additions, not features currently included in this version.
-
-👨🏽‍💻 About the Developer
-
-Katlego Rampai
-Software Development Student | Aspiring Software Engineer
-Gauteng, South Africa 🇿🇦
-
-I am interested in application development, web technologies, APIs, databases, and building practical digital solutions.
-
-Through projects like TaskFlow, I am developing my technical skills, improving my software engineering practices, and building a portfolio of applications that demonstrate my ability to solve real-world problems.
-
-Connect with me:
-
-* 💻 GitHub: @rampai-k
-* 🌐 Portfolio: Developer Portfolio
-* 💼 LinkedIn: Add your LinkedIn profile URL.
-
-📄 License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-⸻
+TaskFlow is open source under the [MIT License](./LICENSE).
 
 <div align="center">
 
-Built with purpose by Katlego Rampai 🇿🇦
+---
 
-TaskFlow — Plan your work. Track your progress.
+**Built with purpose by Katlego Rampai 🇿🇦**
+
+*Plan your work. Track your progress. Keep moving.*
 
 </div>
